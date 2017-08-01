@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/game_zhanwuji"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/zhanWuJiJ"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/game_zhanwuji_quanwang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="@string/fighterKing"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/split_line" />
+
+        <TextView
+            android:id="@+id/game_zhanwuji_quanjineng1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="院校大奖赛"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/split_line" />
+
+        <TextView
+            android:id="@+id/game_zhanwuji_quanjineng2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="拳王统一战"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/split_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text=""
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/game_saifadou_quanwang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="俱乐部联赛"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/split_line" />
+
+        <TextView
+            android:id="@+id/game_saifadou_quanjineng1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="中外对抗赛"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/split_line" />
+
+        <TextView
+            android:id="@+id/game_saifadou_quanjineng2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="国际赛法斗"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text=""
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/game_gongfushijiebei"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="功夫世界杯"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/game_gongfushijiebei1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:enabled="true"
+            android:gravity="center"
+            android:text=""
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/game_gongfushijiebei2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:enabled="true"
+            android:gravity="center"
+            android:text=""
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>
